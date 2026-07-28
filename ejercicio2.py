@@ -4,7 +4,8 @@
 numeros = [1, 2, 3, 4, 5]
 
 # Usamos map() con una función lambda que multiplica cada x por 2
-duplicados = list(map(lambda x: x * 2, numeros))
 #Utilizamos list para devolver la función map como lista
+duplicados = list(map(lambda x: x * 2, numeros))
 
+#Comprobamos que funciona
 print(duplicados)

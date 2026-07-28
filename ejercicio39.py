@@ -27,7 +27,7 @@ def calcular_area(figura, datos):
         return "Figura no válida. Elige entre 'rectangulo', 'circulo' o 'triangulo'."
 
 
-# --- PRUEBA DEL CÓDIGO ---
+# Prueba
 
 # Rectángulo: base = 8, altura = 4
 print("Área rectángulo:", calcular_area("rectangulo", (8, 4)))

@@ -3,7 +3,7 @@ def filtrar_por_letra_inicial(lista_palabras, letra_objetivo):
     # Aseguramos que la letra objetivo esté en minúscula para la comparación
     letra_objetivo = letra_objetivo.lower()
     
-    # filter() evalúa cada palabra: palabra[0].lower() obtiene la primera letra
+    # filter() evalúa cada palabra y palabra[0].lower() obtiene la primera letra
     # list() convierte el resultado final en una lista
     return list(filter(lambda palabra: palabra and palabra[0].lower() == letra_objetivo, lista_palabras))
 

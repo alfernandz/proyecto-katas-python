@@ -9,14 +9,14 @@ Escribe un programa en Python que utilice condicionales para determinar el monto
 '''
 
 def calcular_monto_final():
-    print("--- 🛒 SISTEMA DE PAGO DE LA TIENDA EN LÍNEA ---")
+    print("--- SISTEMA DE PAGO DE LA TIENDA EN LÍNEA ---")
     
     try:
         # a. Solicitar al usuario el precio original de un artículo.
         precio_original = float(input("Introduce el precio original del artículo (€): "))
         
         if precio_original <= 0:
-            print("❌ Error: El precio del artículo debe ser mayor a cero.")
+            print(" Error: El precio del artículo debe ser mayor a cero.")
             return
 
         # b. Preguntar si tiene un cupón de descuento (respuesta sí o no).
@@ -35,7 +35,7 @@ def calcular_monto_final():
                 print(f"Precio original: {precio_original:.2f}€")
                 print(f"Descuento aplicado ({valor_cupon}%): -{descuento:.2f}€")
             else:
-                print("\n❌ El cupón no es válido (debe ser un porcentaje entre 1 y 100).")
+                print("\n El cupón no es válido (debe ser un porcentaje entre 1 y 100).")
                 precio_final = precio_original
                 print("\n--- Recibo de Compra (Sin Descuento) ---")
                 
@@ -44,7 +44,7 @@ def calcular_monto_final():
             print("\n--- Recibo de Compra (Sin Descuento) ---")
             
         else:
-            print("\n⚠️ Respuesta no válida. Se asumirá que no tienes un cupón.")
+            print("\n Respuesta no válida. Se asumirá que no tienes un cupón.")
             precio_final = precio_original
             print("\n--- Recibo de Compra ---")
 
@@ -53,7 +53,7 @@ def calcular_monto_final():
         print("---------------------------------------")
 
     except ValueError:
-        print("❌ Error: Por favor, ingresa un número numérico válido para los precios o cupones.")
+        print("Error: Por favor, ingresa un número numérico válido para los precios o cupones.")
 
-# Ejecutar el programa
+# Ejecutamos el programa
 calcular_monto_final()

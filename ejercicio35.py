@@ -55,7 +55,7 @@ class UsuarioBanco:
         print(f"--- Transferencia completada con éxito ---\n")
 
 
-# --- CASO DE USO ---
+#Caso de uso
 
 try:
     # a. Crear dos usuarios: "Alicia" con saldo de 100 y "Bob" con saldo de 50, ambos con cuenta corriente.

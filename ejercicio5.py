@@ -16,3 +16,6 @@ def evaluar_rendimiento(lista_notas, nota_aprobado=5):
         
     # Devolvemos la tupla con la media (redondeada a 2 decimales) y el estado
     return (round(media, 2), estado)
+
+notas = [1,9,4,6,7,2]
+print (evaluar_rendimiento(notas))

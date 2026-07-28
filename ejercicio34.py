@@ -1,3 +1,4 @@
+
 class Arbol:
     def __init__(self):
         # Inicializar un árbol con un tronco de longitud 1 y una lista vacía de ramas.
@@ -33,7 +34,7 @@ class Arbol:
         }
 
 
-# --- CASO DE USO ---
+# Diferentes usos
 
 # a. Crear un árbol.
 mi_arbol = Arbol()

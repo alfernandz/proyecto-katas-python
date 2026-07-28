@@ -5,3 +5,8 @@ def mapear_letras_unicas(caracteres):
     
     # 2. map() toma cada letra y devuelve la tupla (Mayúscula, Minúscula)
     return list(map(lambda letra: (letra.upper(), letra.lower()), caracteres_unicos))
+
+
+#imprimimos la función
+caracteres = 'a','b','c','d','e','f'
+print (mapear_letras_unicas(caracteres))

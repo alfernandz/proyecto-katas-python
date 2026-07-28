@@ -10,6 +10,5 @@ def tuplas_a_strings(lista_tuplas):
 
 #ejemplo para comprobar que la función funciona
 especialidades = [("Full Stack", 2500), ("Ciberseguridad", 2250), ("Data Analyst", 2100)]
-
 resultado = tuplas_a_strings(especialidades)
 print(resultado)

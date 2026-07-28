@@ -7,3 +7,8 @@ def buscar_palabras_que_contienen(lista_palabras, palabra_objetivo):
         palabra for palabra in lista_palabras 
         if palabra_objetivo.lower() in palabra.lower()
     ]
+
+#Ejemplo de uso
+lista_frutas =['manzana', 'pera', 'fresa', 'kiwi', 'naranja', 'pera', 'limón']
+palabra_objetivo = 'pera'
+print (buscar_palabras_que_contienen(lista_frutas, palabra_objetivo))

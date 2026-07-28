@@ -13,7 +13,7 @@ def evaluar_calificacion():
         
         # Validamos que la nota esté dentro del rango permitido
         if nota < 0 or nota > 100:
-            print("❌ Error: La calificación debe estar entre 0 y 100.")
+            print("Error: La calificación debe estar entre 0 y 100.")
             return
 
         # Aplicamos las reglas de evaluación

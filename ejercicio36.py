@@ -9,10 +9,9 @@ Crear la función procesar_texto que reciba un texto, una opción ("contar", "re
 Caso de uso:
 Verificar el funcionamiento completo de procesar_texto.
 """
-# --- Funciones Auxiliares ---
 
 def contar_palabras(texto):
-    """Cuenta el número de veces que aparece cada palabra en el texto."""
+    #Cuenta el número de veces que aparece cada palabra en el texto.
     palabras = texto.lower().split()
     diccionario_conteo = {}
     
@@ -64,7 +63,7 @@ def procesar_texto(texto, opcion, *args):
         return "Opción no válida. Elige entre 'contar', 'reemplazar' o 'eliminar'."
 
 
-# --- CASO DE USO ---
+#Caso de uso
 
 texto_prueba = "Python es un lenguaje genial. Python es fácil de aprender."
 

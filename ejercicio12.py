@@ -5,3 +5,7 @@ def longitud_de_palabras(frase):
     # 2. Con map(len, ...) aplicamos la función len() a cada palabra de esa lista
     # 3. list(...) convierte el resultado en una lista
     return list(map(len, frase.split()))
+
+#probamos la función
+bienvenida = "Bienvenidos a Resurrection Fest, el mejor festival de heavy metal"
+print (longitud_de_palabras(bienvenida))

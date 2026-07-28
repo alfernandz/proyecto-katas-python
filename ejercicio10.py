@@ -9,7 +9,7 @@ class ListaVaciaError(Exception):
 
 # 2. Creamos la función que calcula el promedio
 def calcular_promedio(numeros):
-    # Si la lista está vacía (evalúa como False), lanzamos nuestra excepción
+    # Si la lista está vacía, lanzamos nuestra excepción
     if not numeros:
         raise ListaVaciaError()
     
